@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     <div class="container">
+    <form action="">
+        <h1 >
+            form
+        </h1> <hr>
+        <h2>Contact info</h2>
+        <p>Name: <input type="text" name="name" placeholder="Name"></p>
+        <fieldset>
+            <legend >Gender</legend>
+        <p>Male: <input type="radio" name="gender"></p>
+        <p>Female: <input type="radio" name="gender"></p>
+    </fieldset>
+    <p>address: <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea></p>
+    <p>Email: <input type="email" name="email" placeholder="abc123@xyz.com"></p>
+    <p>PinCode: <input type="number" name="Pin" placeholder="123456"></p> <hr>
+    <h2>Payment Info</h2>
+    <p>Card Type <select name="Card-type" id="Type">
+        <option value="">--Select a card type--</option> 
+        <option value="Visa">Visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="maestrocard">maestro</option>
+        <option value="rupay">rupay</option>
+    </select></p>
+    <p>Card number <input type="number" name="card number"></p>
+    <p>CVV <input type="password" name="CVV"></p>
+    <p>Expiry <input type="date" name="Expiry"></p>
+    <input type="submit" value="pay now">
+    </form>
+    </div>
+    
+</body>
+</html>
